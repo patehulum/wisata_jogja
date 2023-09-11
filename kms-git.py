@@ -30,7 +30,7 @@ try:
     account_password = secret_data_json['AccountPassword']
     
     # Simpan Account password kedalam double quote
-    account_password = f'"{account_password}"'
+    account_password = f"'{account_password}'"
 
     # Hapus nilai lama dari environment variables jika sudah ada
     if 'AccountName' in os.environ:
