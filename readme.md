@@ -1,11 +1,9 @@
-=====================================================
-Laravel prequisite :
+================= Laravel prequisite ===================
 1. php 7+ installed on machine/ VM
 2. php exstention : sudo apt-get install php-mbstring php-xml php-zip php-json php-bcmath php-gd
 3. composer installed on machine
 
-=====================================================
-Install laravel project :
+============== Install laravel project =================
 1. git pull
 
 ## copy and modify .env file
@@ -27,14 +25,12 @@ or
 ## migrate database using php artisan
 6. php artisan migrate:refresh
 
-====================================================
-Alibaba KMS Prequisite
+=============== Alibaba KMS Prequisite ================
 1. python and pip instaled
 2. install KMS SDK python
 	pip install aliyun-python-sdk-kms
 	
-====================================================
-Menggunakan Alibaba KMS
+=============== Menggunakan Alibaba KMS ===============
 1. move file kms-git.py to another directory path
 2. modify file kms-git.py
 	## vi kms-git.py
