@@ -6,23 +6,23 @@
 ============== Install laravel project =================
 1. git pull
 
-#copy and modify .env file 
-2. cp /.env.example /.env
+<!-- copy and modify .env -->
+2. cp .env.example .env
 	- vi .env
 	- modify DB_HOST, DB_USER, DB_NAME, DB_PASSWORD
 
-#install laravel dependency
+<!-- install laravel dependency -->
 3. composer install
 
-#generate key
-4. php artisan key:generate  
+<!-- generate laravel key -->
+4. php artisan key:generate
 
-#database setup
+<!-- database setup -->
 5. restore database from *.sql file 
 
-#or
+<!-- or -->
 
-#migrate database using php artisan
+<!-- migrate database using php artisan -->
 6. php artisan migrate:refresh
 
 =============== Alibaba KMS Prequisite ================
